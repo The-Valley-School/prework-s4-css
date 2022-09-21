@@ -33,7 +33,7 @@ Para trabajar con CSS tenemos 3 opciones. SPOILER → Las dos primeras no las re
  <h1 style="color:blue;">Este es un título azul<h1>
 ```
 
-- La segunda opción es incluir directamente código CSS dentro de nuestro HTML con la etiqueta <style>
+- La segunda opción es incluir directamente código CSS dentro de nuestro HTML con la etiqueta ```<style>```
 
 ```html
 <style>

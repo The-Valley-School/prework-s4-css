@@ -9,7 +9,7 @@ En esta cuarta sesión del prework nos metemos de lleno en CSS para ver como pod
 - Daremos una visión global sobre los principales estilos que podemos aplicar a nuestro documento tanto a nivel de visualización de contenido como de estructuración
 - ¡Haremos la landing de Netflix! Iremos paso a paso construyéndola juntos
 
-**¿QUÉ ES CSS?**
+## ¿QUÉ ES CSS?
 
 CSS es un lenguaje de estilado que nos permite asignar estilos a nuestro HTML.
 
@@ -23,7 +23,7 @@ Podemos ver la diferencia de incluir estilado dentro de nuestra página web.
 
 ![sin-css.jpg](S4-recursos/img/sin-css.jpg)
 
-**¿CÓMO TRABAJAMOS CON CSS?**
+## ¿CÓMO TRABAJAMOS CON CSS?
 
 Para trabajar con CSS tenemos 3 opciones. SPOILER → Las dos primeras no las recomendamos.
 

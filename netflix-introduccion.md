@@ -10,13 +10,13 @@ La landing en cuestión es esta:
 
 > [Landing Netflix](S4-recursos/landing-netflix.pdf)
 
-**ANÁLISIS INICIAL**
+## ANÁLISIS INICIAL
 
 Como siempre que nos encargan un trabajo de estas características, antes de ponernos a trabajar tenemos que analizar en profundidad lo que nos están pidiendo, para hacernos una idea general y un esquema en la cabeza de la estructura, detalles que podemos ir pensando como hacer, cosas que no sabemos y tendremos que buscar…
 
 Echando un ojo al proyecto vemos que tenemos 4 bloques bastante bien diferenciados a los que nos tendremos que enfrentar:
 
-**BLOQUE INTRODUCCIÓN**
+## BLOQUE INTRODUCCIÓN
 
 En este bloque diferenciamos 
 
@@ -26,7 +26,7 @@ En este bloque diferenciamos
 
 ![Header](S4-recursos/img/netflix-header.png)
 
-**BLOQUE BANNERS**
+## BLOQUE BANNERS
 
 Después del bloque de introducción vienen cuatro banners con características muy similares:
 
@@ -38,7 +38,7 @@ Tiene elementos sencillos, tendremos que pensar bien como trabajamos el CSS para
 
 ![Banners](S4-recursos/img/netflix-secciones.png)
 
-**BLOQUE FAQS**
+## BLOQUE FAQS
 
 ¡ME EXPLOTA LA CABEZA! ¿Y esos desplegables de información? No os preocupéis, vamos a ver como hacerlos únicamente utilizando etiquetas de HTML y dándole estilos con CSS.
 
@@ -46,7 +46,7 @@ Tenemos también de nuevo un formulario, seguramente podamos reutilizar el de la
 
 ![FAQs](S4-recursos/img/netflix-faqs.png)
 
-**FOOTER**
+## FOOTER
 
 Ya solo nos queda el footer. La complejidad aquí escribir tantos enlaces, ¡madre mía!
 

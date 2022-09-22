@@ -10,7 +10,7 @@ En este video vamos a trabajar con estilos que podemos aplicar a los textos de n
 
 Así que empezamos, las propiedades que vamos a ver son las siguientes:
 
-**COLOR**
+## COLOR
 
 Cambia el color del texto. Es una propiedad que ya hemos ido usando. Por ejemplo, podemos cambiar directamente el color de un párrafo.
 
@@ -80,7 +80,7 @@ Esta página es muy interesante para trabajar con colores:
 [https://htmlcolorcodes.com/es/](https://htmlcolorcodes.com/es/)
 
 
-**FONT-SIZE**
+## FONT-SIZE
 
 Nos permite cambiar el tamaño de los textos dentro de nuestra web. Por defecto, cada etiqueta tiene asociados unos tamaños de texto que podemos cambiar. De momento la unidad de medida con la que vamos a trabajar son los PX que son una unidad relativa a la resolución de pantalla.
 
@@ -94,7 +94,7 @@ p {
 
  
 
-**FONT-FAMILY**
+## FONT-FAMILY
 
 La propiedad font-family nos permite cambiar la fuente de nuestra página a una que nuestro navegador la soporte por defecto.
 
@@ -115,7 +115,7 @@ La propiedad font-family nos permite cambiar la fuente de nuestra página a una 
 
  
 
-**FONT-WEIGHT**
+## FONT-WEIGHT
 
 Nos permite cambiar el grosor de nuestra fuente. Permite seleccionar valores del 100 al 900 y atributos como (normal, lighter, bold, bolder)
 
@@ -136,7 +136,7 @@ Nos permite cambiar el grosor de nuestra fuente. Permite seleccionar valores del
 
  
 
-**TEXT-DECORATION**
+## TEXT-DECORATION
 
 La propiedad text decoration nos sirve para poder darle una decoración a un texto pudiéndolo subrayar, tachar…
 
@@ -167,7 +167,7 @@ a {
 
  
 
-**TEXT-TRANSFORM**
+## TEXT-TRANSFORM
 
 Propiedad que nos permite transformar un texto, poniéndolo todo en mayúsculas, minúsculas, capitalizarlo…
 

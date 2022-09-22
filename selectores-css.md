@@ -1,8 +1,8 @@
 A lo largo de este video vamos a ver las formas que tenemos de asignar estilos al HTML, tanto con etiquetas genéricas, como a un grupo de ellas o a una específica.
 
-**TIPOS DE SELECTORES**
+## TIPOS DE SELECTORES
 
-**ETIQUETA**
+### ETIQUETA
 
 Tenemos la opción de aplicar un estilo asignándoselo a una etiqueta. Este estilo recaerá sobre todas las etiquetas del documento.
 
@@ -21,7 +21,7 @@ h1{
 
 El color azul se asignará a todas las etiquetas ```<h1>``` del documento.
 
-**CLASES**
+### CLASES
 
 Las clases nos sirven para asignar una propiedad a un grupo de atributos que nosotros queramos (Las etiquetas pueden ser diferentes). En HTML utilizamos el atributo **class**
 
@@ -38,7 +38,7 @@ En CSS las clases se identifican con un punto .
 }
 ```
 
-**ID**
+### ID
 
 El id es un identificador único, por lo que nos valdrá para asignarle un valor a una etiqueta concreta. Al ser un identificador único, no puede duplicarse
 
@@ -54,7 +54,7 @@ En CSS las clases se identifican con una almohadilla #
 }
 ```
 
-**PESO Y HERENCIA DE LOS SELECTORES**
+## PESO Y HERENCIA DE LOS SELECTORES
 
 Una etiqueta puede tener estilos asignados por etiqueta, clase o id. Estos se compaginan, y en caso de coincidir, se prioriza desde el más específico al más amplio.
 

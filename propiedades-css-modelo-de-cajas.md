@@ -1,7 +1,7 @@
 
 Seguimos trabajando con propiedades CSS, en este video vamos a ver aquellas que nos van a ayudar a estructurar y posicionar los elementos dentro de nuestra web.
 
-**WIDTH Y HEIGHT**
+## WIDTH Y HEIGHT
 
 Estas propiedades nos van a permitir asignar un ancho y alto específico a un elemento, por ejemplo un div. 
 
@@ -33,7 +33,7 @@ Con las propiedades width y height podemos indicar el tamaño del contenedor. ¡
 
  
 
-**DISPLAY**
+## DISPLAY
 
 Si entendemos cada elemento de nuestra página web como una caja. Con la propiedad display estamos indicando como se comporta esta caja dentro de la web. Atributos importantes:
 
@@ -82,7 +82,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
  
 
-**MODELO DE CAJAS**
+## MODELO DE CAJAS
 
 Vamos ahora a ver el modelo de cajas. Si entendemos un elemento como una caja tenemos:
 

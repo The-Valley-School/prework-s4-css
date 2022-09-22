@@ -14,7 +14,7 @@ Landing a realizar:
 
 Para que os resulte más sencillo y claro, os vamos a dar una serie de tips y una división de como entendemos que hay que trabajar los bloques.
 
-**BLOQUE INTRODUCCIÓN**
+## BLOQUE INTRODUCCIÓN
 
 Es un bloque muy similar al de la web de Netflix:
 
@@ -39,13 +39,13 @@ justify-content: space-betwwen;
 
 ![Bloque introducción](S4-recursos/img/hbo-header.png)
 
-**BLOQUE VALUE PROPOSAL**
+## BLOQUE VALUE PROPOSAL
 
 Este bloque es muy sencillo, tenemos que maquetar un título y un texto:
 
 ![Bloque value proposal](S4-recursos/img/hbo-banner.png)
 
-**BLOQUE BANNER**
+## BLOQUE BANNER
 
 También hay un par de banners tienen una imagen en el lateral y un bloque que contiene una imagen, un texto y un botón.
 
@@ -57,7 +57,7 @@ La diferencia entre los bloques es que cambia el color de la letra y fondo, pode
 background-color: #0A1E2B; /* Color del fondo del banner */
 ```
 
-**BLOQUE FAQS**
+## BLOQUE FAQS
 
 ¡Ya hemos aprendido a hacerlos así que no hay excusa! 
 
@@ -69,7 +69,7 @@ background-color: #0A1E2B; /* Color del fondo del banner */
 color:rgb(158, 134, 255);
 ```
 
-**FOOTER**
+## FOOTER
 
 Ya solo nos queda el footer. 
 

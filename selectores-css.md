@@ -23,7 +23,7 @@ El color azul se asignará a todas las etiquetas ```<h1>``` del documento.
 
 ### CLASES
 
-Las clases nos sirven para asignar una propiedad a un grupo de atributos que nosotros queramos (Las etiquetas pueden ser diferentes). En HTML utilizamos el atributo **class**
+Las clases nos sirven para asignar una propiedad a un grupo de etiquetas que nosotros queramos (las etiquetas pueden ser diferentes). En HTML utilizamos el atributo **class**
 
 ```html
 <h2 class="titulo-rojo">Subtítulo 1</h2>
@@ -40,7 +40,7 @@ En CSS las clases se identifican con un punto .
 
 ### ID
 
-El id es un identificador único, por lo que nos valdrá para asignarle un valor a una etiqueta concreta. Al ser un identificador único, no puede duplicarse
+El id es un identificador único, por lo que nos valdrá para asignarle un valor a una etiqueta concreta. Al ser un identificador único, no puede duplicarse.
 
 ```html
 <p id="parrafo-principal">Este es el párrafo principal</p>
@@ -84,8 +84,8 @@ Esto cobra importancia también ahora, ya que algunos valores se heredan de los 
 
 ```html
 <div class="texto-verde">
-  <h1>Título</h1>
-  <h1>Título</h1>
+  <h4>Título</h4>
+  <h4>Título</h4>
 </div>
 
 ```

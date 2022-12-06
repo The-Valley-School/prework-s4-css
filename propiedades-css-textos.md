@@ -3,7 +3,7 @@ Ahora que ya sabemos como trabajar con CSS y hemos visto las formas en que podem
 Tenemos que tener en cuenta que existen infinidad de propiedades que van a permitir modificar el estilo de nuestra página web. Os dejamos una web que tiene un listado completo de propiedades para que curioseéis:
 
 
-([https://css-tricks.com/almanac/properties/](https://css-tricks.com/almanac/properties/))
+[https://css-tricks.com/almanac/properties/]https://css-tricks.com/almanac/properties/
 
 
 En este video vamos a trabajar con estilos que podemos aplicar a los textos de nuestra web, en el siguiente, veremos posicionamiento y estructura.

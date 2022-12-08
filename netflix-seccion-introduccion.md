@@ -150,8 +150,8 @@ Vamos ahora a retocar el tamaño de los títulos y textos. Aprovechamos también
 }
 
 .intro-text {
-  font-size: 19px;
-  max-width: 700px;
+  font-size: 16px;
+  max-width: 800px;
   margin: 30px auto; /* auto (pequeño truco para centrar) */
 }
 ```

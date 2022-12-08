@@ -12,7 +12,7 @@ Lo primero que haremos será crear una sección que contenga:
 
 ```html
 <section>
-        <header">
+        <header>
             <img src="./assets/logo.png" alt="Logo Netflix">
             <button>Iniciar sesión</button>
         </header>
@@ -30,10 +30,10 @@ Lo primero que haremos será crear una sección que contenga:
 
  
 
-Tras estructurar la sección vamos a empezar a aplicarle estilos.Después de análisis que hemos hecho nos fijamos:
+Tras estructurar la sección vamos a empezar a aplicarle estilos. Después del análisis que hemos hecho nos fijamos:
 
-- En que los textos de toda la web están en blanco
-- Que el fondo, salvo la imagen de esta primera sección es negro
+- En que los textos de toda la web están en blanco.
+- Que el fondo, salvo la imagen de esta primera sección es negro.
 - Que la letra se parece más a una sans-serif que a la que tiene por defecto.
 
 Este tipo de propiedades se heredan, por lo que podemos ponerle al padre estas propiedades y las tendrán sus hijos. Así que se las asignamos al body:
@@ -46,7 +46,7 @@ body {
 }
 ```
 
-Ya podemos seguir con nuestra sección. Creamos una clase para ella con el objetivo de poner de fondo la imagen que muestra  de paso alineamos los textos al centro y ponemos el border-bottom de la sección:
+Ya podemos seguir con nuestra sección. Creamos una clase para ella con el objetivo de poner la imagen de fondo y ya de paso alineamos los textos al centro y ponemos el border-bottom de la sección:
 
 ```css
 .intro {
@@ -61,7 +61,7 @@ Ya podemos seguir con nuestra sección. Creamos una clase para ella con el objet
 
 ```html
 <section class="intro">
-        <header">
+        <header>
             <img src="./assets/logo.png" alt="Logo Netflix">
             <button>Iniciar sesión</button>
         </header>
@@ -91,9 +91,9 @@ Vamos ahora con el HEADER. Tenemos que
 .header {
   padding: 40px;
   display: flex;
-  /* Para que no tengan todos los hijos misma altura y salgan centrados verticalmente */
+  /* Para que no tengan todos los hijos la misma altura y salgan centrados verticalmente */
   align-items: center;
-  /* para separar los elementos izquierda y derecha */
+  /* para separar los elementos a la izquierda y derecha con espacio en medio */
   justify-content: space-between;
 }
 
@@ -134,26 +134,25 @@ Vamos ahora con el HEADER. Tenemos que
 
  
 
-Vamos ahora a retocar el tamaño de los títulos y textos y aprovechamos también para fijar un ancho máximo de ellos, utilizando el truco del margin auto para centrarlos.
+Vamos ahora a retocar el tamaño de los títulos y textos. Aprovechamos también para fijarles un ancho máximo, utilizando el truco de margin auto para centrarlos horizontalmente en la página.
 
 ```css
 .intro-title {
   font-size: 64px;
   max-width: 700px;
-  margin: 30px auto; /* auto (pequeño truki para centrar) */
+  margin: 30px auto; /* auto (pequeño truco para centrar) */
 }
 
 .intro-subtitle {
   font-size: 26px;
   max-width: 700px;
-  margin: 30px auto; /* auto (pequeño truki para centrar) */
+  margin: 30px auto; /* auto (pequeño truco para centrar) */
 }
 
 .subscribe-intro-text {
-  text-align: center;
   font-size: 19px;
   max-width: 700px;
-  margin: 30px auto; /* auto (pequeño truki para centrar) */
+  margin: 30px auto; /* auto (pequeño truco para centrar) */
 }
 ```
 
@@ -186,7 +185,7 @@ Por último maquetamos el formulario:
   max-width: 600px;
   display: flex;
   justify-content: center;
-  margin: 30px auto; /* auto (pequeño truki para centrar) */
+  margin: 30px auto; /* auto (pequeño truco para centrar) */
 }
 
 .subscribe-input {

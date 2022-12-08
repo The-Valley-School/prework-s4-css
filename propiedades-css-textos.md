@@ -40,7 +40,7 @@ p {
 
 **Códigos RGB**
 
-De igual manera, podemos aplicar un código de color rgb para darle estilo a nuestro HTML
+De igual manera, podemos aplicar un código de color rgb (red, green, blue) para darle estilo a nuestro HTML
 
  
 
@@ -56,7 +56,7 @@ p {
 
  
 
-Si a parte de color queremos establecer una opacidad trabajando con **rgb**, existe la posibilidad de definir un color con **rgba**, siendo este último argumento la opacidad que queramos darle.
+Si a parte del color queremos establecer una opacidad trabajando con **rgb**, existe la posibilidad de definir un color con **rgba**, siendo este último argumento (alpha) la opacidad que queramos darle.
 
  
 
@@ -80,9 +80,9 @@ https://htmlcolorcodes.com/es/
 
 ## FONT-SIZE
 
-Nos permite cambiar el tamaño de los textos dentro de nuestra web. Por defecto, cada etiqueta tiene asociados unos tamaños de texto que podemos cambiar. De momento la unidad de medida con la que vamos a trabajar son los PX que son una unidad relativa a la resolución de pantalla.
+Nos permite cambiar el tamaño de los textos dentro de nuestra web. Por defecto, cada etiqueta tiene asociados unos tamaños de texto que podemos cambiar. De momento la unidad de medida con la que vamos a trabajar son los **px**(píxeles) que son una unidad relativa a la resolución de pantalla.
 
-Para cambiar el tamaño de letra sería de la siguiente forma:
+Para cambiar el tamaño de letra lo haríamos de la siguiente forma:
 
 ```css
 p {
@@ -94,7 +94,7 @@ p {
 
 ## FONT-FAMILY
 
-La propiedad font-family nos permite cambiar la fuente de nuestra página a una que nuestro navegador la soporte por defecto.
+La propiedad font-family nos permite cambiar la fuente de nuestra página a una que nuestro navegador soporte por defecto.
 
 ```html
 <h2 class="titulo-seccion-a"> Título1 </h2>
@@ -180,7 +180,7 @@ Propiedad que nos permite transformar un texto, poniéndolo todo en mayúsculas,
 } 
 
 .titulo-seccion-b {
-  text-transforrm: lowercase;
+  text-transform: lowercase;
 }
 ```
 

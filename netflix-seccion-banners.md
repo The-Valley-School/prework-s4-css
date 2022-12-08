@@ -54,7 +54,7 @@ Le asignamos estilos:
 .banner-image {
   width: 500px;
   height: auto;
-  /* podemos añadir también padding a la imágen */
+  /* podemos añadir también padding a la imagen */
 }
 ```
 

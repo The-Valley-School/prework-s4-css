@@ -1,4 +1,4 @@
-Llega el momento de las sección de FAQs donde vamos a aprender una nueva etiqueta que nos va a permitir hacer el desplegable:
+Llega el momento de la sección de FAQs donde vamos a aprender una nueva etiqueta que nos va a permitir hacer el desplegable:
 
 ```html
 <details>

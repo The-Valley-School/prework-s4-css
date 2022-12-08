@@ -12,7 +12,7 @@ Identificamos en cada uno de los cuatro banners:
           <p>Smart TV, Playstation, Xbox, Chromecast, Apple TV, reproductores Blu-ray y muchos más.</p>
       </div>
       <img src="./assets/banner-1.png" alt="">
- </section>
+</section>
 ```
 
 Le asignamos estilos:

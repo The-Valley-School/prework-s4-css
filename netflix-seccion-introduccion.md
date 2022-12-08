@@ -149,7 +149,7 @@ Vamos ahora a retocar el tamaño de los títulos y textos. Aprovechamos también
   margin: 30px auto; /* auto (pequeño truco para centrar) */
 }
 
-.subscribe-intro-text {
+.intro-text {
   font-size: 19px;
   max-width: 700px;
   margin: 30px auto; /* auto (pequeño truco para centrar) */
@@ -167,7 +167,7 @@ Vamos ahora a retocar el tamaño de los títulos y textos. Aprovechamos también
 
         <h1 class="intro-title">Todas las películas y series que desees, y mucho más.</h1>
         <h2 class="intro-subtitle">Disfruta donde quieras. Cancela cuando quieras.</h2>
-        <p class="suscrie-intro-text">¿Quieres ver algo ya? Escribe tu dirección de correo para crear una suscripción a Netflix o reactivarla.</p>
+        <p class="intro-text">¿Quieres ver algo ya? Escribe tu dirección de correo para crear una suscripción a Netflix o reactivarla.</p>
 
         <form action="">
             <input type="text" name="" id="" placeholder="Dirección de correo">
@@ -217,7 +217,7 @@ Por último maquetamos el formulario:
 
         <h1 class="intro-title">Todas las películas y series que desees, y mucho más.</h1>
         <h2 class="intro-subtitle">Disfruta donde quieras. Cancela cuando quieras.</h2>
-        <p class="suscrie-intro-text">¿Quieres ver algo ya? Escribe tu dirección de correo para crear una suscripción a Netflix o reactivarla.</p>
+        <p class="intro-text">¿Quieres ver algo ya? Escribe tu dirección de correo para crear una suscripción a Netflix o reactivarla.</p>
 
         <form class="subscribe-form" action="">
             <input class="subscribe-input" type="text" name="" id="" placeholder="Dirección de correo">

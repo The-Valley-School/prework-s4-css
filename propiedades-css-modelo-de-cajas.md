@@ -37,7 +37,7 @@ Con las propiedades width y height podemos indicar el tamaño del contenedor. ¡
 
 Si entendemos cada elemento de nuestra página web como una caja. Con la propiedad display estamos indicando como se comporta esta caja dentro de la web. Atributos importantes:
 
-- INLINE: Se muestran los elementos uno detrás de otros, podría ser un span. No acepta las propiedades width y height
+- INLINE: Se muestran los elementos uno detrás de otro, podría ser un span. No acepta las propiedades width y height
 - INLINE-BLOCK:  Mostramos los elementos uno detrás de otro pero respetando las propiedades width y height.
 - BLOCK: Actúan como bloque, no dejando que los elementos se posicionen a los lados.
 
@@ -70,9 +70,9 @@ Para ver como actúan estos tres atributos sobre nuestros elementos creamos 3 ca
 
 Y vamos viendo conforme le apliquemos los atributos como se comportan:
 
-- Cuando les introducimos **inline** deja de mostrarse nada, ya que no soporta altos y anchos definidos
-- Con **inline-block** vemos todos comportándose como un bloque y aprovechando el espacio
-- Con **block** cada elemento se comporta como bloque independiente.
+- Cuando les introducimos **inline** no se muestra nada, ya que no soporta altos y anchos definidos.
+- Con **inline-block** vemos todos comportándose como un bloque y aprovechando el espacio disponible.
+- Con **block** cada elemento se comporta como un bloque independiente.
 
 ¡PLUS! Os dejamos un enlace para que empecéis a curiosear con flex. A lo largo del máster lo utilizaremos mucho para maquetar:
 
@@ -136,24 +136,23 @@ Para asignar border, padding y margin especifico arriba, abajo, izquierda o dere
 
 ```css
 border-top: 1px solid black; /* borde superior */
-border-button: 1px solid black; /* borde inferior */
-border-left: 1px solid black; /* borde izquierdo */
 border-right: 1px solid black; /* borde derecho */
+border-bottom: 1px solid black; /* borde inferior */
+border-left: 1px solid black; /* borde izquierdo */
 
 padding-top: 1px; /* padding superior */
-padding-button: 1px; /* padding inferior */
-padding-left: 1px; /* padding izquierdo */
 padding-right: 1px; /* padding derecho */
+padding-bottom: 1px; /* padding inferior */
+padding-left: 1px; /* padding izquierdo */
 padding: 10px 20px; /* se le asigna 10px al padding superior/inferior y 20 al derecho/izquierdo */
-padding: 1px 1px 1px 1px; /* en orden: superior-izquierda-inferior-derecha */
+padding: 1px 1px 1px 1px; /* en orden: superior-derecha-inferior-izquierda */
 
 margin-top: 1px; /* margin superior */
-margin-button: 1px; /* margin inferior */
-margin-left: 1px; /* margin izquierdo */
 margin-right: 1px; /* margin derecho */
+margin-bottom: 1px; /* margin inferior */
+margin-left: 1px; /* margin izquierdo */
 margin: 10px 20px; /* se le asigna 10px al padding superior/inferior y 20 al derecho/izquierdo */
-margin: 1px 1px 1px 1px; /* en orden: superior-izquierda-inferior-derecha */
-
+margin: 1px 1px 1px 1px; /* en orden: superior-derecha-inferior-izquierda */
 ```
 
  

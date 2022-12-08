@@ -25,12 +25,12 @@ Aplicamos estilos:
 
 ```html
 <section class="faqs">
-        <h2 class="faqs-title">Preguntas frecuentes</h2>
-        <details class="faq">
-            <summary>¿Qué es Netflix?</summary>
-            <p>Netflix es un servicio de streaming que ofrece una amplia variedad de series, películas, títulos de anime, documentales y otros contenidos premiados en miles de dispositivos conectados a internet.</p>
-            <p>Puedes ver todo el contenido que quieras, cuando quieras y sin un solo anuncio por una tarifa mensual reducida. ¡Siempre hay algo nuevo que descubrir, y cada semana se añaden nuevas series y películas!</p>
-        </details>
+	<h2 class="faqs-title">Preguntas frecuentes</h2>
+	<details class="faq">
+	    <summary>¿Qué es Netflix?</summary>
+	    <p>Netflix es un servicio de streaming que ofrece una amplia variedad de series, películas, títulos de anime, documentales y otros contenidos premiados en miles de dispositivos conectados a internet.</p>
+	    <p>Puedes ver todo el contenido que quieras, cuando quieras y sin un solo anuncio por una tarifa mensual reducida. ¡Siempre hay algo nuevo que descubrir, y cada semana se añaden nuevas series y películas!</p>
+	</details>
 </section>
 ```
 

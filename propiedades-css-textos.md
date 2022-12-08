@@ -22,7 +22,7 @@ p {
 } 
 ```
 
-A demás de poder introducir una serie de colores predefinidos podemos utilizar otras formas de nombrar esos colores:
+Además de poder introducir una serie de colores predefinidos podemos utilizar otras formas de nombrar esos colores:
 
 **Códigos hexadecimales**
 
@@ -86,7 +86,7 @@ Para cambiar el tamaño de letra sería de la siguiente forma:
 
 ```css
 p {
-  font-size: 20px; /* otro color de verde con opacidad 50% */
+  font-size: 20px;
 } 
 ```
 
@@ -180,7 +180,7 @@ Propiedad que nos permite transformar un texto, poniéndolo todo en mayúsculas,
 } 
 
 .titulo-seccion-b {
-  text-decoration: lowercase;
+  text-transforrm: lowercase;
 }
 ```
 

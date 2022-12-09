@@ -23,6 +23,23 @@ Estructuramos primero el HTML
 
 Aplicamos estilos. Lo importante es ver que necesitamos posicionar en líneas diferentes los enlaces y que el bloque que contiene esos enlaces podemos darle estilo con un display flex.
 
+
+```html
+<footer class="footer">
+	<p class="footer-msg">¿Preguntas? Llama al 900 822 376</p>
+	<div class="footer-links">
+		<div class="footer-links-column">
+		  <a class="footer-link" href="#">Preguntas frecuentes</a>
+		  <a class="footer-link" href="#">Inversores</a>
+		  <a class="footer-link" href="#">Formas de ver</a>
+		  <a class="footer-link" href="#">Información corporativa</a>
+		  <a class="footer-link" href="#">Avisos legales</a>
+		</div>
+	</div>	
+<!-- Resto de columnas con enlaces -->
+</footer>
+```
+
 ```css
 .footer {
   max-width: 900px;

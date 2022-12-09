@@ -9,13 +9,13 @@ Estructuramos primero el HTML
 <footer>
 	<p>¿Preguntas? Llama al 900 822 376</p>
 	<div>
-	    <div>
-		<a href="#">Preguntas frecuentes</a>
-		<a href="#">Inversores</a>
-		<a href="#">Formas de ver</a>
-		<a href="#">Información corporativa</a>
-		<a href="#">Avisos legales</a>
-	    </div>
+    		<div>
+			<a href="#">Preguntas frecuentes</a>
+			<a href="#">Inversores</a>
+			<a href="#">Formas de ver</a>
+			<a href="#">Información corporativa</a>
+			<a href="#">Avisos legales</a>
+	    	</div>
 	    <!-- Resto de columnas con enlaces -->
 	</div>
 </footer>

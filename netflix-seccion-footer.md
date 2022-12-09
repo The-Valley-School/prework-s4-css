@@ -7,19 +7,47 @@ Estructuramos primero el HTML
 
 ```html
 <footer>
-        <p>¿Preguntas? Llama al 900 822 376</p>
-        <div>
-            <div>
-                <a href="#">Preguntas frecuentes</a>
-                <a href="#">Inversores</a>
-                <a href="#">Formas de ver</a>
-                <a href="#">Información corporativa</a>
-                <a href="#">Avisos legales</a>
-            </div>
-	           <!-- Resto de columnas con enlaces -->
-        </div>
-
-    </footer>
+	<p>¿Preguntas? Llama al 900 822 376</p>
+	<div>
+	    <div>
+		<a href="#">Preguntas frecuentes</a>
+		<a href="#">Inversores</a>
+		<a href="#">Formas de ver</a>
+		<a href="#">Información corporativa</a>
+		<a href="#">Avisos legales</a>
+	    </div>
+	    <!-- Resto de columnas con enlaces -->
+	</div>
+</footer>
 ```
 
 Aplicamos estilos. Lo importante es ver que necesitamos posicionar en líneas diferentes los enlaces y que el bloque que contiene esos enlaces podemos darle estilo con un display flex.
+
+```css
+.footer {
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.footer-msg {
+  margin-bottom: 40px;
+  color: #737373;
+  font-size: 15px;
+}
+
+.footer-links{
+  display: flex;
+}
+
+.footer-links-column{
+  margin-right: 98px;
+}
+
+.footer-link {
+  color: #737373;
+  text-decoration: none;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 20px;
+}
+```
